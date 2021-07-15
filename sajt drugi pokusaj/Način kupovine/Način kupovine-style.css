@@ -1,0 +1,25 @@
+body {
+    padding: 0;
+    margin: 0;
+    background: white;
+}
+
+.kupovina {
+    font-size: 27px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: sans-serif;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transition: all 2.5s ease-in-out;
+    transform: translateX(-50%)translateY(-50%);
+    background-color: green;
+    color: white;
+}
+
+.kupovina2 {
+    color: black;
+    text-transform: uppercase;
+}

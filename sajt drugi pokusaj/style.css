@@ -1,0 +1,193 @@
+* {
+    margin: 0;
+    padding: 0;
+  
+    font-family: sans-serif;
+}
+
+nav {
+    height: 80px;
+    background: green;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 50px 0 100px;
+}
+
+nav .naslov {
+    font-size: 25px;
+    color: white;
+    font-weight: 600;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+
+}
+
+nav ul li {
+    margin: 0 5px;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    padding: 8px 10px ;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+nav ul li a:hover,
+nav ul li a.active {
+    color: black;
+    background: white;
+
+}
+
+nav .menu-btn i {
+    color: white;
+    font-size: 22px;
+    cursor: pointer;
+    display: none;
+}
+
+@media (max-width: 940px) {
+
+    .tekst1 {
+        text-align: center;
+    }
+
+    .tekst2 {
+        text-align: center;
+    }
+
+    .tekst3 {
+        text-align: center;
+    }
+
+    .slike-sira {
+        text-align: center;
+
+     
+    }
+    nav .menu-btn i{
+        display: block;
+    }
+
+    #click:checked ~ .menu-btn i::before {
+        color: "\f00d";
+    }
+    nav ul{
+        position: fixed;
+        top: 80px;
+        left: -100%;
+        background: black;
+        height: 100vh;
+        width: 100%;
+        display: block;
+        text-align: center;
+        transition: all 0.3s ease;
+    }
+
+    #click:checked ~ ul{
+        left: 0;
+    }
+    nav ul li {
+        margin: 40px 0;
+    }
+    nav ul li a {
+        font-size: 20px;
+        display: block;
+    }
+    
+}
+
+.tekst1 {
+    background-color: green;
+    text-align: center;
+}
+
+.tekst1 h1 {
+    color: white;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+.tekst1 p {
+    color: white;
+    font-size: 20px;
+}
+
+.ikona {
+    margin-left: 70px;
+}
+
+.tekst2 {
+    text-align: center;
+    padding-top: 20px;
+    background-color: white;
+    -webkit-box-shadow: 9px 6px 15px 5px rgba(0,0,0,0.5); 
+box-shadow: 9px 6px 15px 5px rgba(0,0,0,0.5);
+font-size: 20px;
+
+}
+
+.slike-sira {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.tekst3 {
+    text-align: center;
+    background-color: green;
+    color: white;
+    margin-top: 50px;
+    font-size: 20px;
+    -webkit-box-shadow: 9px 6px 15px 5px rgba(0,0,0,0.5); 
+box-shadow: 9px 6px 15px 5px rgba(0,0,0,0.5);
+
+}
+
+.krava {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.krava1 {
+    text-align: center;
+    margin-top: 50px;
+}
+
+@media all and (max-width: 940px) {
+    img {
+        width: 100%;
+        height: 80%;
+    }
+}
+
+.tekst4 {
+    text-align: center;
+    background-color: green;
+    margin-top: 50px;
+    color: white;
+    font-size: 20px;
+    -webkit-box-shadow: 9px 6px 15px 5px rgba(0,0,0,0.5); 
+box-shadow: 9px 6px 15px 5px rgba(0,0,0,0.5);
+    
+}
+
+.kraj {
+    background-color: green;
+    height: 60px;
+    color: white;
+    margin-top: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+.naslov {
+    color: white;
+}
